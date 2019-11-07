@@ -4,13 +4,15 @@
 
 def main(args):
     # a = 10
-    a = input("Podaj liczbę:")
+    a = int(input("Podaj liczbę:"))
     # b = 5
-    b = input("Podaj liczbę:")
+    b = int(input("Podaj liczbę:"))
     if a > b:
-        print(a)
+        print("a > b")
+    elif b > a: 
+        print("b > a")
     else:
-         print(b)   
+         print("a = b")   
    
     return 0
 
