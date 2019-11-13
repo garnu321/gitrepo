@@ -1,12 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-def main(args):
+def sumuj_parzyste():
     suma = 0
-    for i in range(3):
-        liczba = int(input("Podaj liczbę: "))
-        suma = suma + liczba
-    print(suma)    
+    for i in range(0, 100, 2):
+        # liczba = int(input("Podaj liczbę: "))
+        suma = suma + i
+        print(suma)
+
+
+def main(args):
+    sumuj_parzyste()
+   
     return 0
 
 if __name__ == '__main__':
