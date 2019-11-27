@@ -4,7 +4,8 @@
 
 
 def main(args):
-    for i in range(10, 100, 3):
+    for i in range(10, 100):
+
         print (i)
     return 0
 
