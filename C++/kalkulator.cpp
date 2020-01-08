@@ -22,14 +22,18 @@ void pomnoz() {
     int a, b;
     cout << "Podaj dwie liczby: " << endl;
     cin >> a >> b;
-    if b < 0 
     cout << "Iloczyn: " << a * b << endl; 
        }  
 void podziel() {
     int a, b;
     cout << "Podaj dwie liczby: " << endl;
     cin >> a >> b;
-    cout << "Iloraz: " << a / b << endl; 
+    if (b == 0) {
+        cout << "Nie dzielimy przez 0"
+    
+    else    {
+        cout << "Iloraz: " << a / b << endl;
+    } 
        }          
 int main(int argc, char **argv)
 {
@@ -44,9 +48,9 @@ int main(int argc, char **argv)
             odejmij();
         break;
         case '*':
-            pomoz();
+            pomnoz();
         break;
-        case '-':
+        case '/':
             podziel();
         break;
         default:
