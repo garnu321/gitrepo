@@ -15,3 +15,12 @@
 13-D
 14-E
 15-F
+zasięg globalny
+zmienna globalny 
+zasięg lokalny
+zmienna lokalna
+
+void drukuj () {; }
+int sumuj() { return a; }
+int sumuj(int a, int b) { return suma; } // przekaznie przez wartość
+void oblicz(int &liczba) { liczba = 5; } // przekazanie przez referencje 
