@@ -20,11 +20,12 @@ def odejmij(x1, x2):
    
  
 def pomnoz(x1, x2):
-    global
+    global wynik
     wynik = x1 * x2
     
    
 def podziel(x1, x2):
+    global wynik
     wynik = x1 / x2             
        
     

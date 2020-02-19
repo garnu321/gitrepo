@@ -8,7 +8,7 @@
 using namespace std;
 
 void pobierzOceny(int tb[], int n) {
-    int ocena =0;
+    int ocena = 0;
     int i = 0;
     while (n > 0) {
     //for (int i=0; i < n; i++) {
