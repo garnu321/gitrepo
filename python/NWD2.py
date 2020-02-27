@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  NWD1.py
+#  NWD2.py
 
 
 
@@ -9,7 +9,7 @@ def main(args):
     a = int(input("Podaj 1 liczbę: "))
     b = int(input("Podaj 2 liczbę: "))
     licznik = 0
-    while a > b:
+    while a > 0:
         licznik += 1
         a %= b
         b -= a 
